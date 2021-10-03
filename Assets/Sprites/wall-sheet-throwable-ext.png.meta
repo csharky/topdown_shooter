@@ -1,0 +1,562 @@
+fileFormatVersion: 2
+guid: 94e223ec1702b4d3ca9c12052724d5a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2983835129776361825
+    second: wall-sheet-throwable-ext_0
+  - first:
+      213: -5636452870367741216
+    second: wall-sheet-throwable-ext_1
+  - first:
+      213: -874494184084322706
+    second: wall-sheet-throwable-ext_2
+  - first:
+      213: -389720079614888130
+    second: wall-sheet-throwable-ext_3
+  - first:
+      213: -9061821918009040042
+    second: wall-sheet-throwable-ext_4
+  - first:
+      213: 3053980939750061379
+    second: wall-sheet-throwable-ext_5
+  - first:
+      213: -4124822494851455503
+    second: wall-sheet-throwable-ext_6
+  - first:
+      213: -3678130402428504104
+    second: wall-sheet-throwable-ext_7
+  - first:
+      213: 7109459587419921698
+    second: wall-sheet-throwable-ext_8
+  - first:
+      213: 4176067997278164719
+    second: wall-sheet-throwable-ext_9
+  - first:
+      213: -2001467378663125938
+    second: wall-sheet-throwable-ext_10
+  - first:
+      213: -4567848073590728366
+    second: wall-sheet-throwable-ext_11
+  - first:
+      213: -4347933836978041283
+    second: wall-sheet-throwable-ext_12
+  - first:
+      213: 4147873038663462798
+    second: wall-sheet-throwable-ext_13
+  - first:
+      213: 4784449744372929555
+    second: wall-sheet-throwable-ext_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wall-sheet-throwable-ext_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161d6a2dd36b86920800000000000000
+      internalID: 2983835129776361825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-throwable-ext_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eaff744afb47c1b0800000000000000
+      internalID: -5636452870367741216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-throwable-ext_2
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66428f3c2c2dd3f0800000000000000
+      internalID: -874494184084322706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-throwable-ext_3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 30
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 5}
+        - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37b7b407af679af0800000000000000
+      internalID: -389720079614888130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-throwable-ext_4
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 32
+        width: 10
+        height: 8
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: -4}
+        - {x: 3, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653e8372af0fd3280800000000000000
+      internalID: -9061821918009040042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-throwable-ext_5
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 24
+        width: 10
+        height: 8
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: -4}
+        - {x: 3, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345bd98eb7be16a20800000000000000
+      internalID: 3053980939750061379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-throwable-ext_6
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 16
+        width: 10
+        height: 8
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: -4}
+        - {x: 3, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5a6d09bcfa1c6c0800000000000000
+      internalID: -4124822494851455503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-throwable-ext_7
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 17
+        width: 10
+        height: 10
+      alignment: 9
+      pivot: {x: 0.4, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 5}
+        - {x: -5, y: -3}
+        - {x: 3, y: -3}
+        - {x: 3, y: -3}
+        - {x: 3, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d73fa5f2e7a4fcc0800000000000000
+      internalID: -3678130402428504104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-throwable-ext_8
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 10
+        height: 10
+      alignment: 9
+      pivot: {x: 0.4, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 5}
+        - {x: -5, y: -3}
+        - {x: 3, y: -3}
+        - {x: 3, y: -3}
+        - {x: 3, y: 4}
+        - {x: 3, y: 5}
+      - - {x: 3, y: 4}
+        - {x: 3, y: 5}
+        - {x: 3, y: 5}
+        - {x: 3, y: 4}
+      - - {x: 3, y: 4}
+        - {x: 3, y: 4}
+        - {x: 3, y: 4}
+        - {x: 3, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22dd825c3dfd9a260800000000000000
+      internalID: 7109459587419921698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-throwable-ext_9
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 8
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 5}
+        - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe654afb7bf54f930800000000000000
+      internalID: 4176067997278164719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-throwable-ext_10
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 8
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 5}
+        - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c8049f50c5934e0800000000000000
+      internalID: -2001467378663125938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-throwable-ext_11
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 8
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 5}
+        - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2591ca9e06ebb90c0800000000000000
+      internalID: -4567848073590728366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-throwable-ext_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 8
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 5}
+        - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ec50c263909a3c0800000000000000
+      internalID: -4347933836978041283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-throwable-ext_13
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 14
+        width: 10
+        height: 10
+      alignment: 9
+      pivot: {x: 0.4, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 5}
+        - {x: -5, y: -3}
+        - {x: 3, y: -3}
+        - {x: 3, y: -3}
+        - {x: 3, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fa4f26d84309930800000000000000
+      internalID: 4147873038663462798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-throwable-ext_14
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 22
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3149e0381b7c56240800000000000000
+      internalID: 4784449744372929555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

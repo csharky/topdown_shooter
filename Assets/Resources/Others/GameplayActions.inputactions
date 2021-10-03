@@ -1,0 +1,77 @@
+{
+    "name": "GameplayActions",
+    "maps": [
+        {
+            "name": "In-level Actions",
+            "id": "85dcd7b7-694f-4a49-9e72-0f1bebc4ad9f",
+            "actions": [
+                {
+                    "name": "Restart/Reload",
+                    "type": "Button",
+                    "id": "cf391b20-0672-4b6a-a37b-f35141d5ef16",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "673be9fc-f607-4892-8d33-784786274f73",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default",
+                    "action": "Restart/Reload",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "68e8a288-45ef-4a64-a63b-8d460aacdd75",
+                    "path": "<Keyboard>/#(r)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default",
+                    "action": "Restart/Reload",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "307cf123-9463-4cb5-a740-6cc78e75cb8b",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default",
+                    "action": "Restart/Reload",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Default",
+            "bindingGroup": "Default",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

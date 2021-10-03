@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4263909445012279409
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1283847150953743524, guid: fe83bcc1db87e415db43a43749f6bd77, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1283847150953743524, guid: fe83bcc1db87e415db43a43749f6bd77, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 1283847150953743524, guid: fe83bcc1db87e415db43a43749f6bd77, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.433
+      objectReference: {fileID: 0}
+    - target: {fileID: 1283847150953743524, guid: fe83bcc1db87e415db43a43749f6bd77, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1283847150953743524, guid: fe83bcc1db87e415db43a43749f6bd77, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1283847150953743524, guid: fe83bcc1db87e415db43a43749f6bd77, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1283847150953743524, guid: fe83bcc1db87e415db43a43749f6bd77, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1283847150953743524, guid: fe83bcc1db87e415db43a43749f6bd77, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1283847150953743524, guid: fe83bcc1db87e415db43a43749f6bd77, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1283847150953743524, guid: fe83bcc1db87e415db43a43749f6bd77, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1283847150953743524, guid: fe83bcc1db87e415db43a43749f6bd77, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1283847150953743525, guid: fe83bcc1db87e415db43a43749f6bd77, type: 3}
+      propertyPath: _destroyLayers.m_Bits
+      value: 1280
+      objectReference: {fileID: 0}
+    - target: {fileID: 1283847150953743526, guid: fe83bcc1db87e415db43a43749f6bd77, type: 3}
+      propertyPath: m_Name
+      value: Bullet Skin Yellow
+      objectReference: {fileID: 0}
+    - target: {fileID: 1283847151737938793, guid: fe83bcc1db87e415db43a43749f6bd77, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4772398144642383176, guid: cda7f172df7984817bc0d6d1e4e43b7c, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fe83bcc1db87e415db43a43749f6bd77, type: 3}

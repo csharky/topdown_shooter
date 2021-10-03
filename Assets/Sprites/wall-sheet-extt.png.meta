@@ -1,0 +1,622 @@
+fileFormatVersion: 2
+guid: 489f6ea84e1bd48a6ba7008edac59ed5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7200403601156998159
+    second: wall-sheet-extt_0
+  - first:
+      213: -4892991638717421647
+    second: wall-sheet-extt_1
+  - first:
+      213: -7547702875108395688
+    second: wall-sheet-extt_2
+  - first:
+      213: 8260183769038104379
+    second: wall-sheet-extt_3
+  - first:
+      213: -2045746266334513081
+    second: wall-sheet-extt_4
+  - first:
+      213: -4440900685902620878
+    second: wall-sheet-extt_5
+  - first:
+      213: -1127048604894805356
+    second: wall-sheet-extt_6
+  - first:
+      213: -1871914684387988624
+    second: wall-sheet-extt_7
+  - first:
+      213: 935367990658041861
+    second: wall-sheet-extt_8
+  - first:
+      213: 5926345606978838721
+    second: wall-sheet-extt_9
+  - first:
+      213: -2418042324156685933
+    second: wall-sheet-extt_10
+  - first:
+      213: -4169229809038152892
+    second: wall-sheet-extt_11
+  - first:
+      213: -2057380186127685574
+    second: wall-sheet-extt_12
+  - first:
+      213: 4350271830426540600
+    second: wall-sheet-extt_13
+  - first:
+      213: -6626236539053685382
+    second: wall-sheet-extt_14
+  - first:
+      213: 8989914719834864663
+    second: wall-sheet-extt_15
+  - first:
+      213: -159416853146260598
+    second: wall-sheet-extt_16
+  - first:
+      213: -4264103586760826694
+    second: wall-sheet-extt_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wall-sheet-extt_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 30
+        width: 8
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 5}
+        - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbf799f217031c90800000000000000
+      internalID: -7200403601156998159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-extt_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 32
+        width: 10
+        height: 8
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: -4}
+        - {x: 3, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7aa4d570a981cb0800000000000000
+      internalID: -4892991638717421647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-extt_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 24
+        width: 10
+        height: 8
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: -4}
+        - {x: 3, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85538fa793c214790800000000000000
+      internalID: -7547702875108395688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-extt_3
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 16
+        width: 10
+        height: 8
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: -4}
+        - {x: 3, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37a6f4af5112a270800000000000000
+      internalID: 8260183769038104379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-extt_4
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 14
+        width: 10
+        height: 10
+      alignment: 9
+      pivot: {x: 0.4, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 5}
+        - {x: -5, y: -3}
+        - {x: 3, y: -3}
+        - {x: 3, y: -3}
+        - {x: 3, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748bc8e0c9c0c93e0800000000000000
+      internalID: -2045746266334513081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-extt_5
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2375cf5ea50ce52c0800000000000000
+      internalID: -4440900685902620878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-extt_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49245a4e34beb50f0800000000000000
+      internalID: -1127048604894805356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-extt_7
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b673b238f9506e0800000000000000
+      internalID: -1871914684387988624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-extt_8
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 10
+        height: 10
+      alignment: 9
+      pivot: {x: 0.4, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 5}
+        - {x: -5, y: -3}
+        - {x: 3, y: -3}
+        - {x: 3, y: -3}
+        - {x: 3, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50881715b381bfc00800000000000000
+      internalID: 935367990658041861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-extt_9
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 8
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 5}
+        - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0ab203eeb9e3250800000000000000
+      internalID: 5926345606978838721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-extt_10
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 8
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 5}
+        - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391e7c84153617ed0800000000000000
+      internalID: -2418042324156685933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-extt_11
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 8
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 5}
+        - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44baf45049be326c0800000000000000
+      internalID: -4169229809038152892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-extt_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 8
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 5}
+        - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38aee50f97b273e0800000000000000
+      internalID: -2057380186127685574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-extt_13
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 14
+        width: 8
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 5}
+        - {x: -4, y: -3}
+        - {x: 3, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a56f85e254f5c30800000000000000
+      internalID: 4350271830426540600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-extt_14
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75cdfb99f0ea04a0800000000000000
+      internalID: -6626236539053685382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-extt_15
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 40
+        width: 8
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 5}
+        - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cffcc9ec792cc70800000000000000
+      internalID: 8989914719834864663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-extt_16
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 40
+        width: 10
+        height: 10
+      alignment: 9
+      pivot: {x: 0.4, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 5}
+        - {x: -5, y: -3}
+        - {x: 3, y: -3}
+        - {x: 3, y: -3}
+        - {x: 3, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ba1097733a9cdf0800000000000000
+      internalID: -159416853146260598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-sheet-extt_17
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 50
+        width: 10
+        height: 8
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: -4}
+        - {x: 3, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0e6a9416cd2d4c0800000000000000
+      internalID: -4264103586760826694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

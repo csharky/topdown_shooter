@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Wall
+  - Throwable Wall
+  - Enemy
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Post-Process
+  m_SortingLayers:
+  - name: Floors
+    uniqueID: 1380493653
+    locked: 0
+  - name: Stairs
+    uniqueID: 3219208775
+    locked: 0
+  - name: Wall Breaks
+    uniqueID: 2770966805
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Bullets
+    uniqueID: 2224247361
+    locked: 0
+  - name: Walls
+    uniqueID: 1855356569
+    locked: 0
+  - name: UI
+    uniqueID: 1008573527
+    locked: 0
