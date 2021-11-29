@@ -78,6 +78,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -87,8 +88,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -109,6 +110,8 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
@@ -614,6 +617,25 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      wall-sheet-extt_11: -4169229809038152892
+      wall-sheet-extt_0: -7200403601156998159
+      wall-sheet-extt_14: -6626236539053685382
+      wall-sheet-extt_12: -2057380186127685574
+      wall-sheet-extt_10: -2418042324156685933
+      wall-sheet-extt_16: -159416853146260598
+      wall-sheet-extt_5: -4440900685902620878
+      wall-sheet-extt_7: -1871914684387988624
+      wall-sheet-extt_3: 8260183769038104379
+      wall-sheet-extt_1: -4892991638717421647
+      wall-sheet-extt_4: -2045746266334513081
+      wall-sheet-extt_17: -4264103586760826694
+      wall-sheet-extt_9: 5926345606978838721
+      wall-sheet-extt_6: -1127048604894805356
+      wall-sheet-extt_15: 8989914719834864663
+      wall-sheet-extt_13: 4350271830426540600
+      wall-sheet-extt_8: 935367990658041861
+      wall-sheet-extt_2: -7547702875108395688
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -40,6 +40,8 @@ SpriteAtlas:
       allowAlphaSplitting: 0
       enableRotation: 0
       enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
     - {fileID: -1609485153166992994, guid: 1fb909d75689748da88891c585af1226, type: 3}
@@ -78,5 +80,6 @@ SpriteAtlas:
   - wall-breaks_4
   - wall-breaks_7
   - wall-breaks_6
+  m_RenderDataMap: {}
   m_Tag: WallBreaksSpriteAtlas
   m_IsVariant: 0

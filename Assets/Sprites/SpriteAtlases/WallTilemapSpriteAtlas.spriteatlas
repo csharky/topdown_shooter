@@ -40,6 +40,8 @@ SpriteAtlas:
       allowAlphaSplitting: 0
       enableRotation: 0
       enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
     - {fileID: 2800000, guid: a7183d5c3791a44bdbfc8769fadf5217, type: 3}
@@ -128,5 +130,6 @@ SpriteAtlas:
   - wall-sheet_corner
   - wall-sheet_vertical
   - wall-sheet_horizontal
+  m_RenderDataMap: {}
   m_Tag: WallTilemapSpriteAtlas
   m_IsVariant: 0

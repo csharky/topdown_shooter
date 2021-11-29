@@ -1,7 +1,7 @@
 ﻿using EventSystem;
 using EventSystem.Events;
 using UnityEngine;
-using UnityEngine.Experimental.Rendering.Universal;
+
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Animator _legsAnimator;
     [SerializeField] private Transform _bodyTransform;
     [SerializeField] private Transform _cursorTransform;
-    [SerializeField] private Light2D _light;
+    [SerializeField] private UnityEngine.Rendering.Universal.Light2D _light;
     [SerializeField] private float _lightDelay;
     [SerializeField] private float _lightTurnOnIntensity;
     [SerializeField] private float _lightTurnOffIntensity;
