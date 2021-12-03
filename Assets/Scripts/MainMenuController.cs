@@ -6,6 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
+    [SerializeField] private VhsEffectController _vhsEffect;
+    [SerializeField] private Animator _animator;
+    public void Awake()
+    {
+        _vhsEffect.SetValue(0.0f);
+        _vhsEffect.SetNoisePartsScale(150f);
+    }
+    
     public async void LoadLastScene()
     {
         var id = PlayerPrefs.GetInt("_LAST_FINISHED_SCENE", 1);

@@ -13,6 +13,7 @@ public class GameController : MonoBehaviour, IEventListener<GameOver>, IGameStar
     public int FrameRate;
 
     [SerializeField] private CanvasGroup _gameoverOverlay;
+    [SerializeField] private VhsEffectController _vhsEffect;
 
     private GameplayActions m_Actions;
     private bool m_gameOver;
@@ -32,6 +33,7 @@ public class GameController : MonoBehaviour, IEventListener<GameOver>, IGameStar
     {
         if (!m_gameOver) return;
         
+        _vhsEffect.SetValue(0f);
         m_gameOver = false; 
         var asyncOp = SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
         while (!asyncOp.isDone) await Task.Delay(100);
@@ -44,6 +46,8 @@ public class GameController : MonoBehaviour, IEventListener<GameOver>, IGameStar
         _gameoverOverlay.gameObject.SetActive(true);
         _gameoverOverlay.alpha = 1f;
         m_gameOver = true;
+        
+        _vhsEffect.SetValue(1f);
     }
 
     public void Invoke(GameStarted eventData)
@@ -61,6 +65,9 @@ public class GameController : MonoBehaviour, IEventListener<GameOver>, IGameStar
         {
             RestartGame();
         };
+        
+        _vhsEffect.SetValue(0f);
+        _vhsEffect.SetNoisePartsScale(75f);
     }
 
     private void OnDestroy()

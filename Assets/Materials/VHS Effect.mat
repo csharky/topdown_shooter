@@ -39,19 +39,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
     m_Floats:
     - Vector1_4CFF48AD: 340
     - Vector1_509AB068: 50
@@ -66,16 +53,16 @@ Material:
     - Vector1_E27C00D9: 3
     - _BackgroundColorValue: 0
     - _ColorMask: 15
-    - _ComparisonValue: 0.35
+    - _ComparisonValue: 0.417
     - _CullMode: 0
     - _EnableExternalAlpha: 0
     - _MaskSoftnessX: 0
     - _MaskSoftnessY: 0
-    - _NoiseColorSize: 0
-    - _NoisePartsScale: 75
+    - _NoiseColorSize: 0.3
+    - _NoisePartsScale: 150
     - _NoiseScale: 2
     - _NoiseVisability: 0.3
-    - _NoiseVisibility: 0.3
+    - _NoiseVisibility: 0.75
     - _Padding: 0
     - _Stencil: 0
     - _StencilComp: 8
