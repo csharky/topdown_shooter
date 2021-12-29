@@ -53,16 +53,16 @@ Material:
     - Vector1_E27C00D9: 3
     - _BackgroundColorValue: 0
     - _ColorMask: 15
-    - _ComparisonValue: 0.417
+    - _ComparisonValue: 0.35
     - _CullMode: 0
     - _EnableExternalAlpha: 0
     - _MaskSoftnessX: 0
     - _MaskSoftnessY: 0
-    - _NoiseColorSize: 0.3
-    - _NoisePartsScale: 150
+    - _NoiseColorSize: 0
+    - _NoisePartsScale: 75
     - _NoiseScale: 2
     - _NoiseVisability: 0.3
-    - _NoiseVisibility: 0.75
+    - _NoiseVisibility: 0.3
     - _Padding: 0
     - _Stencil: 0
     - _StencilComp: 8
