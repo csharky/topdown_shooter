@@ -53,7 +53,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 692095178610253647, guid: b8f74779d2564412facf17f5deff898b, type: 3}
       propertyPath: m_Name
-      value: WallBreak
+      value: WallBreak Variant 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057640593962411746, guid: b8f74779d2564412facf17f5deff898b, type: 3}
+      propertyPath: id
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057640593962411746, guid: b8f74779d2564412facf17f5deff898b, type: 3}
+      propertyPath: value.id
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3808480514179608341, guid: b8f74779d2564412facf17f5deff898b, type: 3}
       propertyPath: m_Sprite

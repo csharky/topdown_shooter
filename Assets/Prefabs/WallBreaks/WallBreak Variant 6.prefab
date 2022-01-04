@@ -7,13 +7,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 243320915660530737, guid: 803798b585d76458bb670e761319dc67, type: 3}
+      propertyPath: id
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 243320915660530737, guid: 803798b585d76458bb670e761319dc67, type: 3}
+      propertyPath: value.id
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2149598178780114374, guid: 803798b585d76458bb670e761319dc67, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -2236205527630740253, guid: 1fb909d75689748da88891c585af1226, type: 3}
     - target: {fileID: 2347580586609925532, guid: 803798b585d76458bb670e761319dc67, type: 3}
       propertyPath: m_Name
-      value: WallBreak
+      value: WallBreak Variant 6
       objectReference: {fileID: 0}
     - target: {fileID: 3106739217454833298, guid: 803798b585d76458bb670e761319dc67, type: 3}
       propertyPath: m_RootOrder

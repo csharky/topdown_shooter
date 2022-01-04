@@ -3,6 +3,7 @@ using System.Linq;
 using ECS.Components;
 using ECS.Events;
 using Leopotam.Ecs;
+using NUnit.Framework;
 using UnityEngine;
 
 namespace ECS.Systems
@@ -16,6 +17,7 @@ namespace ECS.Systems
 		{
 			foreach (var projectileIdx in _projectiles)
 			{
+				ref var projectileEntity = ref _projectiles.GetEntity(projectileIdx);
 				ref var transform = ref _projectiles.Get1(projectileIdx).transform;
 				
 				if (!transform.gameObject.activeSelf) continue;
@@ -26,12 +28,15 @@ namespace ECS.Systems
 
 				var raycastHeadPos = root.position;
 				var direction = transform.right;
+				var position = transform.position;
 				
 				var moveDelta = direction * speed * Time.deltaTime;
-				var results = new RaycastHit2D[3];
+				var results = new RaycastHit2D[5];
         
 				Physics2D.LinecastNonAlloc(raycastHeadPos, raycastHeadPos + moveDelta, results, mask);
 				Debug.DrawLine(raycastHeadPos, raycastHeadPos + moveDelta, Color.red);
+
+				var entities = new List<(EcsEntity, RaycastHit2D)>();
 
 				for (int j = 0; j < results.Length; j++)
 				{
@@ -39,22 +44,28 @@ namespace ECS.Systems
 					if (raycast.collider == null) continue;
 					
 					var otherCollider = raycast.collider;
-
+					
 					foreach (var colliderIdx in _colliders)
 					{
 						ref var collider = ref _colliders.Get1(colliderIdx).Collider;
 						if (otherCollider != collider) continue;
 						
-						_colliders
-							.GetEntity(colliderIdx)
-							.Get<ProjectileCollidedEvent>() = new ProjectileCollidedEvent() { Raycast = raycast };
+						ref var colliderEntity = ref _colliders.GetEntity(colliderIdx);
 						
-						_projectiles
-							.GetEntity(projectileIdx)
-							.Get<ProjectileCollidedEvent>() = new ProjectileCollidedEvent() { Raycast = raycast };
-						break;
+						entities.Add((colliderEntity, raycast));
+						
+						colliderEntity.Get<ProjectileCollidedEvent>() = new ProjectileCollidedEvent()
+						{
+							Entities = new List<(EcsEntity, RaycastHit2D)>(){ (projectileEntity, raycast) }
+						};
 					}
 				}
+				
+				projectileEntity.Get<ProjectileCollidedEvent>() = new ProjectileCollidedEvent()
+				{
+					Entities = entities,
+					ProjectileTransform = transform
+				};
 			}
 		}
 	}

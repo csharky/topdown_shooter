@@ -11,6 +11,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 2899344870453088584, guid: 1fb909d75689748da88891c585af1226, type: 3}
+    - target: {fileID: 2154900215405055632, guid: 6f390def1ca68448cb4bf379431d7b92, type: 3}
+      propertyPath: id
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2154900215405055632, guid: 6f390def1ca68448cb4bf379431d7b92, type: 3}
+      propertyPath: value.id
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3862566322060948531, guid: 6f390def1ca68448cb4bf379431d7b92, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -57,7 +65,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4473065477635258173, guid: 6f390def1ca68448cb4bf379431d7b92, type: 3}
       propertyPath: m_Name
-      value: WallBreak
+      value: WallBreak Variant 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f390def1ca68448cb4bf379431d7b92, type: 3}

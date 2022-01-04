@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 62228214687238776, guid: 17419e6ad55254d5cb05a093403d8353, type: 3}
       propertyPath: m_Name
-      value: WallBreak
+      value: WallBreak Variant 5
       objectReference: {fileID: 0}
     - target: {fileID: 816285111579822454, guid: 17419e6ad55254d5cb05a093403d8353, type: 3}
       propertyPath: m_RootOrder
@@ -54,6 +54,14 @@ PrefabInstance:
     - target: {fileID: 816285111579822454, guid: 17419e6ad55254d5cb05a093403d8353, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533608170812748757, guid: 17419e6ad55254d5cb05a093403d8353, type: 3}
+      propertyPath: id
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533608170812748757, guid: 17419e6ad55254d5cb05a093403d8353, type: 3}
+      propertyPath: value.id
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4439902753389525538, guid: 17419e6ad55254d5cb05a093403d8353, type: 3}
       propertyPath: m_Sprite

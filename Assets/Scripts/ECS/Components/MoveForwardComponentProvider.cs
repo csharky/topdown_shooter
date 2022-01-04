@@ -3,8 +3,5 @@ using Voody.UniLeo;
 
 namespace ECS.Components
 {
-	public class MoveForwardComponentProvider : MonoProvider<MoveForwardComponent>
-	{
-		
-	}
+	public class MoveForwardComponentProvider : MonoProvider<MoveForwardComponent> { }
 }

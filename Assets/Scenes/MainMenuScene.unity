@@ -156,7 +156,7 @@ MonoBehaviour:
   _comparisonRange: {x: 0.417, y: 0.15}
   _colorRange: {x: 0.3, y: 2}
   _backgroundColorRange: {x: 0, y: 0}
-  _material: {fileID: 2100000, guid: 22e4727e62a9b4800ae3efbd9a057e27, type: 2}
+  _material: {fileID: 2100000, guid: 2e5f4c381436848a6b5d6fd016645319, type: 2}
   _value: -1
 --- !u!4 &213429903
 Transform:
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 1
   m_Cameras: []
-  m_RendererIndex: 1
+  m_RendererIndex: 5
   m_VolumeLayerMask:
     serializedVersion: 2
     m_Bits: 1
@@ -349,7 +349,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -6.4594116}
+  m_AnchoredPosition: {x: 8.100006, y: -6.4594116}
   m_SizeDelta: {x: 458.42365, y: 113.26553}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &796381249
@@ -860,7 +860,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 456.9004, y: 444.0005}
+  m_AnchoredPosition: {x: 456.9004, y: 444}
   m_SizeDelta: {x: -1006.27527, y: 887.2029}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1642070418

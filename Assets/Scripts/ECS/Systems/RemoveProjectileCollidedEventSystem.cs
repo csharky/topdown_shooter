@@ -1,7 +1,5 @@
-using ECS.Components;
 using ECS.Events;
 using Leopotam.Ecs;
-using UnityEngine;
 
 namespace ECS.Systems
 {
@@ -13,7 +11,7 @@ namespace ECS.Systems
 		{
 			foreach (var i in _events)
 			{
-				_events.GetEntity(i).Del<ProjectileDestroyEvent>();
+				_events.GetEntity(i).Del<ProjectileCollidedEvent>();
 			}
 		}
 	}
