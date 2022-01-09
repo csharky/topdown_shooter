@@ -10,5 +10,8 @@ namespace ECS.Components
 		public GameObject bulletPrefab;
 		public int        shootsPerFire;
 		public float      shootDelay;
+		public int        ammo;
+		public int        ammoCapacity;
+		public float      reloadDelay;
 	}
 }

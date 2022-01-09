@@ -2,6 +2,6 @@ namespace ECS.Components
 {
 	internal struct WeaponFireBlock
 	{
-		public float Timer;
+		public float timer;
 	}
 }

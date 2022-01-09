@@ -125,6 +125,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 467971866545275649, guid: d6b74bc9e1c7241539758e2ce8df1c57, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 467971866900274592, guid: d6b74bc9e1c7241539758e2ce8df1c57, type: 3}
       propertyPath: m_Name
       value: RangeEnemy

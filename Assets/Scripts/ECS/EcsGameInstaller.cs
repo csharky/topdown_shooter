@@ -13,6 +13,9 @@ namespace ECS
 {
 	public class EcsGameInstaller : MonoBehaviour
 	{
+		[SerializeField] private SharedEnemySettings         enemySettings;
+		[SerializeField] private SharedBloodSplatterSettings bloodSplatterSettings;
+
 		private EcsWorld   _world;
 		private EcsSystems _systems;
 		private EcsSystems _fixedUpdateSystems;
@@ -58,38 +61,60 @@ namespace ECS
 		private void AddSystems()
 		{
 			_systems
-				.Add(new WeaponInitSystem());
+				.Add(new WeaponInitSystem())
+				.Add(new EnemyInitSystem())
+				;
 			
 			_systems
+				.Add(new GameMapInitSystem())
 				.Add(new WallBreakCreatePoolSystem())
+				.Add(new BloodPartCreatePoolSystem())
 				.Add(new PoolSystem())
+				.Add(new EnemySearchSystem())
+				.Add(new MeleeEnemyRotateOnTargetDetectedSystem())
+				.Add(new EnemySeekerStartPathSystem())
+				.Add(new EnemySeekerAssignPathSystem())
+				.Add(new MeleeEnemyMoveByPathSystem())
+				.Add(new TopdownRotateSystem())
 				.Add(new WallBreakBecomeActiveSystem())
+				.Add(new BloodPartBecomeActiveSystem())
 				.Add(new WeaponFireBlockSystem())
-				.Add(new PlayerMoveDirectionByInputSystem())
-				.Add(new PlayerTransformMovementSystem())
+				.Add(new TargetDetectedTimerSystem())
+				.Add(new PlayerReloadByInputSystem())
+				.Add(new TransformMovementSystem())
+				.Add(new MovementAnimatorSystem())
+				.Add(new DeadAnimatorSystem())
+				.Add(new DisableComponentsOnBecomeDeadSystem())
+				.Add(new AllEnemiesDeadDetectionSystem())
+				.Add(new GameMapFinishAllEnemiesDeadRoundSystem())
 				.Add(new CameraFollowSystem())
 				.Add(new ProjectileTurnOffSystem())
-				.Add(new RotateDirectionToCursorSystem());
+				.Add(new RotateDirectionToCursorSystem())
+				;
 
 			_fixedUpdateSystems
+				.Add(new PlayerMoveDirectionByInputSystem())
 				.Add(new FireInputSystem())
 				.Add(new WeaponFireSystem())
+				.Add(new WeaponStartReloadSystem())
+				.Add(new WeaponFinishReloadSystem())
 				.Add(new SpawnBulletSystem())
+				.Add(new ProjectileCollisionDetectSystem())
+				.Add(new ProjectileEnemyCollisionInteractSystem())
+				.Add(new ProjectileWallCollisionInteractSystem())
+				.Add(new ProjectileThrowableWallCollisionInteractSystem())
+				.Add(new ProjectileDamageSystem())
+				.Add(new ProjectileDestroySystem())
 				.Add(new TransformMovementForwardSystem())
 				.Add(new TransformMoveRightSystem())
 				.Add(new TransformMoveMinusRightSystem())
 				.Add(new SpeedDecreaseByMultiplierSystem())
 				.Add(new PlayerRigidbodyMovementSystem())
-				.Add(new TopdownRotateSystem())
-				.Add(new ProjectileCollisionDetectSystem())
-				.Add(new ProjectileWallCollisionInteractSystem())
-				.Add(new ProjectileThrowableWallCollisionInteractSystem())
-				.Add(new ProjectileDamageSystem())
-				.Add(new ProjectileDestroySystem())
 				.Add(new RemoveProjectileCollidedEventSystem())
 				.Add(new RemoveCollideThrowableWallBlockSystem())
 				.Add(new SpawnDestroyBulletEffectSystem())
 				.Add(new SpawnDestroyWallEffectSystem())
+				.Add(new SpawnBloodSplatterEffectSystem())
 				;
 		}
 
@@ -97,12 +122,18 @@ namespace ECS
 		{
 			_systems.OneFrame<BecomeActiveEvent>();
 			_systems.OneFrame<BecomeInactiveEvent>();
+			_systems.OneFrame<PlaySoundEvent>();
+			_systems.OneFrame<PathCalculatedEvent>();
+			_systems.OneFrame<TargetOnViewSightEvent>();
+			_systems.OneFrame<BecomeDeadEvent>();
+			_systems.OneFrame<AllEnemiesDeadEvent>();
 			
 			_fixedUpdateSystems.OneFrame<ProjectileDestroyEvent>();
 			_fixedUpdateSystems.OneFrame<DamageEvent>();
 			_fixedUpdateSystems.OneFrame<SpawnBulletEvent>();
 			_fixedUpdateSystems.OneFrame<SpawnDestroyBulletEffectEvent>();
 			_fixedUpdateSystems.OneFrame<SpawnDestroyWallEffectEvent>();
+			_fixedUpdateSystems.OneFrame<SpawnBloodSplatterEffectEvent>();
 		}
 		
 		private void AddSharedData()
@@ -112,6 +143,8 @@ namespace ECS
 				new SharedBulletData(),
 				new SharedDestroyWallEffectData(),
 				new SharedDestroyBulletEffectData(),
+				bloodSplatterSettings,
+				enemySettings
 			};
 
 			foreach (var obj in list)

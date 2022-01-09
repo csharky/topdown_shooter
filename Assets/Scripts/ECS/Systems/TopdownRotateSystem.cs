@@ -4,9 +4,20 @@ using UnityEngine;
 
 namespace ECS.Systems
 {
-	public class TopdownRotateSystem : IEcsRunSystem
+	public class TopdownRotateSystem : IEcsInitSystem, IEcsRunSystem
 	{
 		private readonly EcsFilter<RotateDirectionData, TransformComponent> _rotateFilter = null;
+		
+		public void Init()
+		{
+			foreach (var i in _rotateFilter)
+			{
+				ref var direction = ref _rotateFilter.Get1(i).direction;
+				ref var rotateTransform = ref _rotateFilter.Get2(i).transform;
+
+				direction = rotateTransform.rotation * Vector3.forward;
+			}
+		}
 
 		public void Run()
 		{

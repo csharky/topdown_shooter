@@ -5,7 +5,7 @@ namespace ECS.Systems
 {
 	public class PlayerMoveDirectionByInputSystem : IEcsRunSystem
 	{
-		private readonly EcsFilter<MoveDirectionData> _filter = null;
+		private readonly EcsFilter<PlayerTag, MoveDirectionData> _filter = null;
 		
 		public void Run()
 		{
@@ -13,7 +13,7 @@ namespace ECS.Systems
 
 			foreach (var i in _filter)
 			{
-				ref var moveDirectionData = ref _filter.Get1(i);
+				ref var moveDirectionData = ref _filter.Get2(i);
 				ref var direction = ref moveDirectionData.direction;
 				
 				direction.x = moveVector.x;

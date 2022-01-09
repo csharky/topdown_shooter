@@ -1,7 +1,8 @@
+using ECS.Components;
 using Leopotam.Ecs;
 using UnityEngine;
 
-namespace ECS.Components
+namespace ECS.Systems
 {
 	public class WeaponFireBlockSystem : IEcsRunSystem
 	{
@@ -13,9 +14,9 @@ namespace ECS.Components
 			{
 				ref var entity = ref _filter.GetEntity(i);
 				ref var block = ref _filter.Get1(i);
-				block.Timer -= deltaTime;
+				block.timer -= deltaTime;
 				
-				if (block.Timer <= 0f) entity.Del<WeaponFireBlock>();
+				if (block.timer <= 0f) entity.Del<WeaponFireBlock>();
 			}
 		}
 	}

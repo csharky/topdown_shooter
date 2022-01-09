@@ -16,6 +16,18 @@ public static class InputHelper
             return Mouse.current.leftButton.ReadValue();
         }
     }
+    
+    public static float IsReloading()
+    {
+        if (IsGamepadConnected())
+        {
+            return Gamepad.current.triangleButton.ReadValue();
+        }
+        else
+        {
+            return Keyboard.current.rKey.ReadValue();
+        }
+    }
 
     public static Vector2 MoveVector()
     {

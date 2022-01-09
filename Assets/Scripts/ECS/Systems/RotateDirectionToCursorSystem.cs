@@ -6,8 +6,8 @@ namespace ECS.Systems
 {
 	public class RotateDirectionToCursorSystem : IEcsRunSystem
 	{
-		private readonly EcsFilter<RotateDirectionData, TransformComponent> _rotateFilter = null;
-		private readonly EcsFilter<CursorTag, TransformComponent> _cursor = null;
+		private readonly EcsFilter<RotateDirectionData, TransformComponent, PlayerTag> _rotateFilter = null;
+		private readonly EcsFilter<CursorTag, TransformComponent>                      _cursor       = null;
 
 		public void Run()
 		{

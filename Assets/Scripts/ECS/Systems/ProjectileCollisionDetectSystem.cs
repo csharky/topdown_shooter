@@ -47,7 +47,7 @@ namespace ECS.Systems
 					
 					foreach (var colliderIdx in _colliders)
 					{
-						ref var collider = ref _colliders.Get1(colliderIdx).Collider;
+						ref var collider = ref _colliders.Get1(colliderIdx).collider;
 						if (otherCollider != collider) continue;
 						
 						ref var colliderEntity = ref _colliders.GetEntity(colliderIdx);

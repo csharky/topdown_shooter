@@ -29,7 +29,6 @@ namespace ECS.Systems
 						if (projectileCollidedEntity.Item1 != wallEntity) continue;
 						ref var wallDamage = ref _walls.Get3(wallIdx).Damage;
 
-						Debug.Log("Projectile Collided with <color=yellow>Damagable</color> wall");
 						projectileEntity.Get<CollideThrowableWallBlock>() = new CollideThrowableWallBlock()
 						{
 							framesCount = 1

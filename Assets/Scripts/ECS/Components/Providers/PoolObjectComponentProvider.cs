@@ -4,7 +4,7 @@ namespace ECS.Components
 {
 	public class PoolObjectComponentProvider : MonoBehaviour
 	{
-		public PoolObjectId id;
-		public int          idx;
+		public                   PoolObjectId id;
+		[HideInInspector] public int          idx;
 	}
 }

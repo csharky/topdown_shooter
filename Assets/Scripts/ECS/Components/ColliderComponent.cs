@@ -6,6 +6,6 @@ namespace ECS.Components
 	[Serializable]
 	public struct ColliderComponent
 	{
-		public Collider2D Collider;
+		public Collider2D collider;
 	}
 }

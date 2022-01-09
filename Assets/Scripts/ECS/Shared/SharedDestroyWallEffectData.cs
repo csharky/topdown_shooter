@@ -11,6 +11,6 @@ namespace ECS.Shared
 		public float StartSpeed              => Random.Range(0f, 12f);
 		public float SpeedDecreaseMultiplier => Random.Range(1.3f, 2f);
 
-		public ushort PooledAmountPerPrefab => 15;
+		public ushort PooledAmountPerPrefab => 40;
 	}
 }

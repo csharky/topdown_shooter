@@ -20,26 +20,24 @@ namespace ECS.Systems
 				foreach (var prefab in effectPrefabs)
 				{
 					var filter = _world.GetFilter(typeof(EcsFilter<PoolData>));
-					var offset = 0;
+					var poolExists = false;
 					foreach (var poolIdx in filter)
 					{
 						ref var poolDataId = ref filter.GetEntity(poolIdx).Get<PoolData>().id;
-						ref var poolDataCapacity = ref filter.GetEntity(poolIdx).Get<PoolData>().capacity;
 						if (poolDataId != prefab.id) continue;
 						
-						poolDataCapacity += _sharedEffectData.PooledAmountPerPrefab;
-						offset += _sharedEffectData.PooledAmountPerPrefab;
+						poolExists = true;
 					}
 					
-					for (var j = 0 + offset; j < _sharedEffectData.PooledAmountPerPrefab + offset; j++)
+					if (poolExists) continue;
+
+					for (var j = 0; j < _sharedEffectData.PooledAmountPerPrefab; j++)
 					{
 						var obj = Object.Instantiate(prefab);
 						obj.transform.position = Vector3.one * 2000;
 						obj.idx = j;
 					}
 					
-					if (offset > 0) continue;
-
 					var newPoolDataEntity = _world.NewEntity();
 					var newPoolData = new PoolData()
 					{

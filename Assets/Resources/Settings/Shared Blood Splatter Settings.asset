@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4fa8a3f92ef4df3972239101682893c, type: 3}
+  m_Name: Shared Blood Splatter Settings
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 3689356750500849288, guid: 1c90f147cda4b46bdb9665cdfbfa5a3a, type: 3}
+  - {fileID: 7052538070318679790, guid: a5e615b7ae16e405782620ab3532d0fb, type: 3}
+  - {fileID: 8978407450193181626, guid: 8503c226adda44327b3ab1d1b0c7a125, type: 3}
+  - {fileID: 8529192357822818025, guid: f1d453fc01737416d8d9a3685b68b9e9, type: 3}
+  - {fileID: 4511713273524509424, guid: 2dd72eed7ab5a41c494fdd9e4c61d78c, type: 3}
+  - {fileID: 7893077067920170498, guid: cad194dc9427d4c5a8eb64399980884c, type: 3}
+  - {fileID: 8260011274184111734, guid: dd6ac77b6d88f4771bbc8bb2ac3c6e47, type: 3}
+  - {fileID: 4220022414130222767, guid: acd77b7044e30480ab12791d7526d94d, type: 3}
+  - {fileID: 9182848905371944878, guid: 2efd4121095dc47fe8b2415f8afb9b7c, type: 3}
+  - {fileID: 2277599192829292054, guid: 3c9190110fe104090bcdc7991b71f170, type: 3}
+  - {fileID: 8554108359065326238, guid: 0df32e23d77c04357ab041413f03c7a4, type: 3}
+  - {fileID: 8400270725183552799, guid: 5a47dd9b36c624bd19cd0f4dbff1cd7e, type: 3}
+  - {fileID: 919060143117571322, guid: 358e03a5a3f55487baf71b19b67de542, type: 3}
+  - {fileID: 6111938486555549857, guid: fbaeeef34c8b3421da09a10f6206e1e1, type: 3}
+  - {fileID: 65886589407180523, guid: e29ccf2e040884228bbdcae94d28331f, type: 3}
+  - {fileID: 9126667010875978304, guid: fe2788b9d372642a4a89be6b227ffb69, type: 3}
+  - {fileID: 7999801707710521432, guid: 026d128b492f14c018339bb487916148, type: 3}
+  - {fileID: 2142052429998192190, guid: 966cee85fe1424f73894266aaed09e5a, type: 3}
+  - {fileID: 5235955133701345881, guid: 5f605b217944748ab8368e6839e883ee, type: 3}
+  - {fileID: 5367784007077918641, guid: 8ea1c3f528b4841179f6e0a0a6ecf302, type: 3}
+  - {fileID: 9155071472433682548, guid: 5f5e0e760136f45ee9ef1b2d4f55a499, type: 3}
+  - {fileID: 4773747878418038700, guid: 70a5e9f49f066479ab627133c460ff49, type: 3}
+  - {fileID: 6497970828737402702, guid: e72945e8391c64937b2ec22e9ddcf319, type: 3}
+  - {fileID: 7510424023171024140, guid: c6319aa06781946e8a995e1852c190de, type: 3}
+  - {fileID: 8951080561656235282, guid: bd1412b8c40d248b9bdbdd4a5a0f22bb, type: 3}
+  - {fileID: 4447329436050445726, guid: 7494e91266cc4440f96f470071464f6b, type: 3}
+  - {fileID: 7880882665501061552, guid: a04e69da2639040e2b3e744db7bbcfb2, type: 3}
+  - {fileID: 7221256372552778845, guid: 2f4487080bf1349a891d30b197630444, type: 3}
+  - {fileID: 961703846886012106, guid: 670afc785d8da4262bb8816164169c2d, type: 3}

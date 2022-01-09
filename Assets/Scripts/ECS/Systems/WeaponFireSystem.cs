@@ -20,13 +20,26 @@ namespace ECS.Systems
 				ref var entity = ref _filter.GetEntity(i);
 				
 				ref var transform = ref weapon.firingPositionTransform;
-
-				entity.Get<WeaponFireBlock>().Timer = weapon.shootDelay;
+				ref var ammo = ref weapon.ammo;
 				
-				_world.NewEntity().Get<SpawnBulletEvent>() = new SpawnBulletEvent()
+				if (ammo <= 0)
+				{
+					continue;
+				}
+				
+				ammo--;
+
+				entity.Get<WeaponFireBlock>().timer = weapon.shootDelay;
+				
+				var newEntity = _world.NewEntity();
+				newEntity.Get<SpawnBulletEvent>() = new SpawnBulletEvent()
 				{
 					RootTransform = transform,
 					Prefab = weapon.bulletPrefab
+				};
+				newEntity.Get<PlaySoundEvent>() = new PlaySoundEvent()
+				{
+					type = AudioController.SoundType.Shoot_Rifle
 				};
 			}
 		}
